@@ -11,7 +11,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background-image: url('https://via.placeholder.com/1920x1080'); /* Замените ссылку на ваше изображение новостройки */
+            background-image: url('https://frankfurt.apollo.olxcdn.com/v1/files/xrznf5i5qzg51-UZ/image'); /* Замените ссылку на ваше изображение новостройки */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

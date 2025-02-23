@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Группа компаний 'Стройсервис' предлагает лучшие цены на квартиры. Добро пожаловать на наш сайт!">
+    <meta name="keywords" content="стройсервис, квартиры, недвижимость, лучшие цены">
     <title>Добро пожаловать на наш сайт!</title>
     <style>
         body {
@@ -54,11 +56,16 @@
 </head>
 <body>
     <div class="container">
-        <h1> ГРУПППА КОМПАНИЙ СТРОЙСЕРВИС ПРИВЕТСТВУЕТ ВАС! !</h1>
-        <p>Наша цель - предоставить вам лучшие ЦЕНЫ НА КВАРТИРЫ .</p>
-          
-        <button class="cta-button" onclick="showMessage()">Узнать больше</button>
-        <div id="message" class="message">ПЕЦА ЛОШАРА</div>
+        <header>
+            <h1>Группа компаний "Стройсервис" приветствует вас!</h1>
+        </header>
+        <main>
+            <p>Наша цель - предоставить вам лучшие цены на квартиры.</p>
+            <a href="#" class="cta-button" onclick="showMessage()">Узнать больше</a>
+            <div id="message" class="message">
+                Спасибо за ваш интерес! Мы свяжемся с вами в ближайшее время.
+            </div>
+        </main>
     </div>
 </body>
 </html>

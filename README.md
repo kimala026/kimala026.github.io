@@ -9,17 +9,33 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
             margin: 0;
             padding: 20px;
+            background-image: url('https://via.placeholder.com/1920x1080'); /* Замените ссылку на ваше изображение новостройки */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.7); /* Полупрозрачный белый слой */
+            z-index: -1;
         }
         .container {
             max-width: 800px;
             margin: auto;
-            background: white;
+            background: rgba(255, 255, 255, 0.9); /* Полупрозрачный белый фон контейнера */
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1;
         }
         h1 {
             color: #333;
